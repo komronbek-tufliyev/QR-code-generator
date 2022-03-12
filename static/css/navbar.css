@@ -1,0 +1,30 @@
+.navbar{
+    width: 100%;
+    background: #222222e3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+ul.navbar-items{
+    display: flex;
+    list-style: none;
+}
+
+.brand{
+    color: #fff;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.nav-link{
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: #32a3ff;
+    transition: 0.3s;
+}
